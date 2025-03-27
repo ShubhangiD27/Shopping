@@ -14,7 +14,7 @@ function calculateCartPrice(cart) {
 
     if (itemData.offers[item]) {
       const offer = itemData.offers[item];
-      if (offer.type === "B1G1")         // offer applied for 
+      if (offer.type === "B1G1")         
       { 
         const paidCount = Math.ceil(count / 2); 
         totalCost += paidCount * price;
