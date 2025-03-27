@@ -1,0 +1,21 @@
+{
+    "prices": {
+      "Apple": 35,
+      "Banana": 20,
+      "Melon": 50,
+      "Lime": 15
+    },
+    "offers": {
+      "Melon": {
+        "type": "B1G1", 
+        "quantity": 2, 
+        "payFor": 1
+      },
+      "Lime": {
+        "type": "3For2",
+        "quantity": 3, 
+        "payFor": 2
+      }
+    }
+  }
+  
